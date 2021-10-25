@@ -1,0 +1,9 @@
+package com.demos.Stringclass;
+
+public class LowerUpper {
+public static void main(String[] args) {
+	
+	System.out.println();
+	System.out.println();
+}
+}

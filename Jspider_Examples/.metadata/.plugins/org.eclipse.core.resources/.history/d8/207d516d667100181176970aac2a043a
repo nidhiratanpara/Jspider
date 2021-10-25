@@ -1,0 +1,17 @@
+package com.demo.overloading;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		main();
+		main(10);
+	}
+
+	public static void main(int i) {
+       		
+	}
+
+	public static void main() {
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.demos.Stringclass;
+
+public class Occurance {
+public static void main(String[] args) {
+	String s1="java";
+	
+	int n=s1.length()-s1.replace("a","");
+}
+}

@@ -1,0 +1,49 @@
+package com.demo.Stack;
+
+public class MyStack {
+
+	
+	
+	private int count;
+	private Node first;
+	private Node last;
+	
+	public void push(Object e)
+	{
+		if(last==null)
+		{
+			first=new Node(e);
+			count++;
+			return;
+		}
+		first=new Node(e);
+		count++;
+	}
+	public Object pop()
+	{
+		if(last==null) return null;
+		
+		last=last.next;
+		count--;
+		return last;
+		
+	}
+	public int size()
+	{
+		return count;
+	}
+	private class Node
+	{
+		Node next;
+		Object ele;
+		Node(Object e)
+		{
+			ele=e;
+		}
+		Node(Object e,Node n)
+		{
+			ele=e;
+			next=n;
+		}
+	}
+}

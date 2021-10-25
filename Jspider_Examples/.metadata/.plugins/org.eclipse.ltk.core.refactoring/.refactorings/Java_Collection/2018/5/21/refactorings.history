@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.demo.Queue.Queue.java&apos; to &apos;MyQueue.java&apos;&#x0D;&#x0A;- Original project: &apos;Java_Collection&apos;&#x0D;&#x0A;- Original element: &apos;com.demo.Queue.Queue.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.demo.Queue.MyQueue.java&apos;" description="Rename compilation unit &apos;Queue.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.demo.Queue{Queue.java" name="MyQueue.java" references="false" stamp="1527089685040" version="1.0"/>
+</session>

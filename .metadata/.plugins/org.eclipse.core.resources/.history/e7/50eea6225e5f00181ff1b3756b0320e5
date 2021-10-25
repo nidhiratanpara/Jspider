@@ -1,0 +1,28 @@
+package com.demo.Stack;
+
+public class MyStack {
+
+	
+	
+	private int count;
+	private Node first;
+	private Node last;
+	public int size()
+	{
+		return count;
+	}
+	private class Node
+	{
+		Node next;
+		Object ele;
+		Node(Object e)
+		{
+			ele=e;
+		}
+		Node(Object e,Node n)
+		{
+			ele=e;
+			next=n;
+		}
+	}
+}

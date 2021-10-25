@@ -1,0 +1,18 @@
+package com.demo.overloading;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		main();
+		main(10);
+	}
+
+	private static void main(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void main() {
+		
+	}
+}

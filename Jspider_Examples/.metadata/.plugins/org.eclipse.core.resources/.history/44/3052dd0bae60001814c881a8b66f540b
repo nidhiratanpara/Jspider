@@ -1,0 +1,13 @@
+package com.demos.Stringclass;
+
+public class ImmutableString {
+
+	public static void main(String[] args) {
+		String s1="JAVA";
+		 s1=s1.toLowerCase();
+		System.out.println(s1);
+		String s2="JAVA";
+		s2=s2.toLowerCase();
+		System.out.println(s2);
+	}
+}

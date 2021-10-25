@@ -1,0 +1,14 @@
+package com.demos.Stringclass;
+
+public class IndexOf {
+
+	public static void main(String[] args) {
+		  String s="javadeveloper";
+		  System.out.println(s.indexOf('e'));
+		  System.out.println(s.indexOf("dev"));
+		  System.out.println(s.indexOf('e',3));
+		  System.out.println(s.indexOf("lo", 1));
+		  
+	}
+
+}
